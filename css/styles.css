@@ -1,0 +1,2131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+.whiteNav {
+  margin-left: 25px;
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+  font-family: "Gill Sans";
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  justify-content: space-evenly;
+}
+
+.blackNav {
+  margin-left: 25px;
+  color: black;
+  font-size: 17px;
+  text-decoration: none;
+  font-family: "Gill Sans";
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+
+.nav-holder {
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  top: 0px;
+  text-decoration: none;
+}
+
+.white {
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 980px;
+  height: 90px;
+  box-sizing: border-box;
+  border-bottom: 2px solid #fff;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  text-decoration: none;
+}
+.white .a-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  text-decoration: none;
+}
+
+.black {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 980px;
+  height: 90px;
+  box-sizing: border-box;
+  border-bottom: 2px solid #000;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+.black .a-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo {
+  text-decoration: none;
+}
+.logo .whiteLogo {
+  width: 95px;
+  height: 42px;
+  background-image: url(../images/logo-white.svg);
+  text-decoration: none;
+}
+
+.logo .blackLogo {
+  width: 95px;
+  height: 42px;
+  background-image: url(../images/logo-black.svg);
+  text-decoration: none;
+}
+
+span {
+  padding-left: 15px;
+  text-decoration: none;
+  color: #EE4367;
+  font-size: 30px;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "gill sans";
+  src: url(../fonts/Gill\ Sans.otf);
+}
+@media all and (max-width: 700px) {
+  .black {
+    flex-direction: column;
+  }
+  .white {
+    flex-direction: column;
+  }
+}
+.footer-holder {
+  width: 100%;
+  height: 455px;
+  background-color: #EE4367;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.footer-holder .footer {
+  margin: 0 auto;
+}
+.footer-holder .footer .logo-holder {
+  padding-top: 35px;
+}
+.footer-holder .footer .logo-holder .logo {
+  margin: 0 auto;
+  background-image: url(../images/logo-white.svg);
+  height: 42px;
+  width: 92px;
+}
+.footer-holder .footer .info-holder {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 46px;
+  padding-bottom: 46px;
+}
+.footer-holder .footer .info-holder .address {
+  margin: 0 auto;
+  font-family: "gill sans";
+  color: white;
+  font-size: 16px;
+}
+.footer-holder .footer .info-holder .number {
+  font-family: "gill sans";
+  color: white;
+  font-size: 16px;
+}
+.footer-holder .footer .info-holder .email {
+  padding-top: 5px;
+  font-family: "Gill Sans";
+  color: white;
+  font-size: 16px;
+}
+.footer-holder .footer .subscribe {
+  margin: 0 auto;
+  max-width: 696px;
+  height: 60px;
+  background-color: black;
+  display: flex;
+}
+.footer-holder .footer .subscribe .sub-input {
+  background-color: blue;
+  width: 529px;
+  height: 100%;
+}
+.footer-holder .footer .subscribe .sub-input input {
+  color: black;
+  font-size: 16px;
+  background-color: #F56B88;
+  border-style: solid;
+  border: none;
+  min-width: 100%;
+  height: 60px;
+  padding-left: 10px;
+  font-family: "Gill Sans";
+}
+.footer-holder .footer .subscribe .sub-input ::placeholder {
+  color: #cdcdcd;
+  font-family: "Gill Sans";
+}
+.footer-holder .footer .subscribe .sub-button {
+  background-color: white;
+  width: 167px;
+  height: 100%;
+  color: #F56B88;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-family: gill sans;
+}
+.footer-holder .footer .socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 150px;
+  padding-top: 30px;
+}
+.footer-holder .footer .socials .fb {
+  background-image: url(../images/facebook.svg);
+  width: 31px;
+  height: 31px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: invert(100%);
+}
+.footer-holder .footer .socials .insta {
+  background-image: url(../images/instagram.svg);
+  width: 31px;
+  height: 31px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: invert(100%);
+}
+.footer-holder .footer .socials .twitter {
+  background-image: url(../images/twitter.svg);
+  width: 31px;
+  height: 31px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: invert(100%);
+}
+.footer-holder .footer .copywrite {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 212px;
+  font-size: 12px;
+  font-family: gill sans;
+  color: #cdcdcd;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+@media all and (max-width: 949px) {
+  .footer-holder {
+    margin-top: 600px;
+  }
+}
+.hero {
+  min-width: 100%;
+  background-color: black;
+  height: 500px;
+  background-image: linear-gradient(rgba(255, 209, 64, 0.8), rgba(255, 209, 64, 0.8)), url(../images/home-hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 0, 0.8);
+}
+.hero .hero-holder {
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero .hero-holder .info .read {
+  margin-left: 300px;
+  height: 40px;
+  width: 121px;
+  background-color: #EE4367;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 45px;
+  font-family: "gill sans";
+}
+.hero .hero-holder .info .read p {
+  padding-top: 12px;
+  color: white;
+  font-size: 15px;
+}
+.hero .hero-holder .info .read a {
+  text-decoration: none;
+}
+@font-face {
+  font-family: "pt seriff";
+  src: url(../fonts/PTSerif-Regular.ttf);
+}
+.hero .hero-holder .info h1 {
+  margin-top: 50px;
+  color: white;
+  font-size: 30px;
+  font-family: "pt seriff";
+}
+.hero .hero-holder .info h2 {
+  color: white;
+  font-size: 20px;
+  font-family: "gill sans";
+  font-style: italic;
+  margin: 0;
+}
+.hero .hero-holder .info p {
+  padding-bottom: 50px;
+  color: #EE4367;
+  font-family: "Gill Sans";
+  font-style: italic;
+  font-size: 20px;
+}
+
+.home-text {
+  max-width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+@font-face {
+  font-family: "gill semibold itallic";
+  src: url(../fonts/Gill\ Sans\ Bold\ Italic.otf);
+}
+.home-text .text-holder {
+  width: 790px;
+  height: 200px;
+}
+.home-text .text-holder .info {
+  font-size: 15px;
+  color: #FFD140;
+  font-family: "gill semibold itallic";
+}
+.home-text .text-holder .author {
+  font-family: "pt seriff";
+  padding-top: 20px;
+  color: #EE4367;
+}
+.home-text .text-holder .copywrite {
+  font-family: "pt seriff";
+  margin: 0;
+  font-size: 10px;
+  color: #A8A8A8;
+}
+
+.calender {
+  width: 100%;
+  min-height: 320px;
+  background-color: #540D6E;
+}
+.calender .upcoming {
+  padding: 20px;
+  padding-top: 30px;
+}
+.calender .upcoming h1 {
+  color: white;
+  font-family: "Gill Sans";
+  font-weight: normal;
+  position: relative;
+  padding-bottom: 10px;
+}
+.calender .upcoming h1::after {
+  display: block;
+  content: "";
+  width: 392px;
+  height: 2px;
+  background: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.calender .calender-holder {
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+}
+.calender .calender-holder .d1 {
+  width: 210px;
+  height: 130px;
+  display: flex;
+}
+.calender .calender-holder .d1 .date {
+  width: 60px;
+  height: 60px;
+  background-color: #EE4367;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@font-face {
+  font-family: "gil sans bold";
+  src: url(../fonts/Gill\ Sans\ Bold.otf);
+  @font-face {
+    font-family: gil sans light;
+    src: url(../fonts/Gill\ Sans\ Light.otf);
+  }
+}
+.calender .calender-holder .d1 .date .day {
+  padding-top: 20px;
+}
+.calender .calender-holder .d1 .date .day p {
+  margin: 0;
+  font-size: 22px;
+  color: white;
+  font-family: "gil sans bold";
+}
+.calender .calender-holder .d1 .date .month {
+  font-family: "gil sans light";
+  color: white;
+  font-size: 12px;
+}
+.calender .calender-holder .d1 .date-txt-holder {
+  padding-left: 10px;
+  height: 30px;
+  width: 140px;
+  color: white;
+}
+.calender .calender-holder .d1 .date-txt-holder .date-header {
+  font-family: "gill sans";
+  font-size: 15px;
+}
+.calender .calender-holder .d1 .date-txt-holder .date-info {
+  font-family: "gill sans";
+  font-size: 13px;
+  color: #EE4367;
+}
+.calender .calender-holder .d2 {
+  width: 210px;
+  height: 130px;
+  display: flex;
+}
+.calender .calender-holder .d2 .date {
+  width: 60px;
+  height: 60px;
+  background-color: #EE4367;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.calender .calender-holder .d2 .date .day {
+  padding-top: 20px;
+}
+.calender .calender-holder .d2 .date .day p {
+  margin: 0;
+  font-size: 22px;
+  color: white;
+  font-family: "gil sans bold";
+}
+.calender .calender-holder .d2 .date .month {
+  font-family: "gil sans light";
+  color: white;
+  font-size: 12px;
+}
+.calender .calender-holder .d2 .date-txt-holder {
+  padding-left: 10px;
+  height: 30px;
+  width: 140px;
+  color: white;
+}
+.calender .calender-holder .d2 .date-txt-holder .date-header {
+  font-family: "gill sans";
+  font-size: 15px;
+}
+.calender .calender-holder .d2 .date-txt-holder .date-info {
+  font-family: "gill sans";
+  font-size: 13px;
+  color: #EE4367;
+}
+.calender .calender-holder .d3 {
+  width: 210px;
+  height: 130px;
+  display: flex;
+}
+.calender .calender-holder .d3 .date {
+  width: 60px;
+  height: 60px;
+  background-color: #EE4367;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.calender .calender-holder .d3 .date .day {
+  padding-top: 20px;
+}
+.calender .calender-holder .d3 .date .day p {
+  margin: 0;
+  font-size: 22px;
+  color: white;
+  font-family: "gil sans bold";
+}
+.calender .calender-holder .d3 .date .month {
+  font-family: "gil sans light";
+  color: white;
+  font-size: 12px;
+}
+.calender .calender-holder .d3 .date-txt-holder {
+  padding-left: 10px;
+  height: 30px;
+  width: 140px;
+  color: white;
+}
+.calender .calender-holder .d3 .date-txt-holder .date-header {
+  font-family: "gill sans";
+  font-size: 15px;
+}
+.calender .calender-holder .d3 .date-txt-holder .date-info {
+  font-family: "gill sans";
+  font-size: 13px;
+  color: #EE4367;
+}
+.calender .calender-holder .d4 {
+  width: 210px;
+  height: 130px;
+  display: flex;
+}
+.calender .calender-holder .d4 .date {
+  width: 60px;
+  height: 60px;
+  background-color: #EE4367;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.calender .calender-holder .d4 .date .day {
+  padding-top: 20px;
+}
+.calender .calender-holder .d4 .date .day p {
+  margin: 0;
+  font-size: 22px;
+  color: white;
+  font-family: "gil sans bold";
+}
+.calender .calender-holder .d4 .date .month {
+  font-family: "gil sans light";
+  color: white;
+  font-size: 12px;
+}
+.calender .calender-holder .d4 .date-txt-holder {
+  padding-left: 10px;
+  height: 30px;
+  width: 140px;
+  color: white;
+}
+.calender .calender-holder .d4 .date-txt-holder .date-header {
+  font-family: "gill sans";
+  font-size: 15px;
+}
+.calender .calender-holder .d4 .date-txt-holder .date-info {
+  font-family: "gill sans";
+  font-size: 13px;
+  color: #EE4367;
+}
+.calender .calender-holder .d5 {
+  width: 210px;
+  height: 130px;
+  display: flex;
+}
+.calender .calender-holder .d5 .date {
+  width: 60px;
+  height: 60px;
+  background-color: #EE4367;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.calender .calender-holder .d5 .date .day {
+  padding-top: 20px;
+}
+.calender .calender-holder .d5 .date .day p {
+  margin: 0;
+  font-size: 22px;
+  color: white;
+  font-family: "gil sans bold";
+}
+.calender .calender-holder .d5 .date .month {
+  font-family: "gil sans light";
+  color: white;
+  font-size: 12px;
+}
+.calender .calender-holder .d5 .date-txt-holder {
+  padding-left: 10px;
+  height: 30px;
+  width: 140px;
+  color: white;
+}
+.calender .calender-holder .d5 .date-txt-holder .date-header {
+  font-family: "gill sans";
+  font-size: 15px;
+}
+.calender .calender-holder .d5 .date-txt-holder .date-info {
+  font-family: "gill sans";
+  font-size: 13px;
+  color: #EE4367;
+}
+
+@media all and (max-width: 1022px) {
+  .calender-holder {
+    flex-direction: column;
+  }
+}
+.about-holder {
+  height: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+.about-holder .about-image {
+  margin-top: 85px;
+  min-width: 100%;
+  position: relative;
+  height: 378px;
+  background-image: linear-gradient(rgba(255, 209, 64, 0.8), rgba(255, 209, 64, 0.8)), url(../images/about.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+.about-holder .about-image .history {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 26px;
+  padding: 0;
+  margin: 0;
+  vertical-align: bottom;
+}
+.about-holder .about-image .history h1 {
+  font-size: 25px;
+  font-family: "Gill Sans";
+  margin: 0;
+  padding-bottom: 50px;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "gil sans light italic";
+  src: url(../fonts/Gill\ Sans\ Light\ Italic.otf);
+}
+.about-holder .about-text {
+  padding-top: 50px;
+  color: black;
+  padding-bottom: 130px;
+  font-family: "gil sans light italic";
+}
+
+.blog {
+  margin: 0 auto;
+  height: 1000px;
+  max-width: 980px;
+}
+.blog .blog-title {
+  padding-top: 40px;
+}
+.blog .blog-title h1 {
+  font-family: "Gill Sans";
+  font-weight: normal;
+  position: relative;
+  padding-bottom: 10px;
+  font-size: 25px;
+}
+.blog .blog-title h1::after {
+  display: block;
+  content: "";
+  width: 229px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.blog .blog-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  cursor: pointer;
+  text-decoration: none;
+  padding-top: 10px;
+}
+.blog .blog-holder .blog-left {
+  width: 50%;
+  height: 100%;
+  text-decoration: none;
+}
+.blog .blog-holder .blog-left .b1 {
+  display: flex;
+  width: 460px;
+  height: 257px;
+  text-decoration: none;
+}
+.blog .blog-holder .blog-left .b1 .date-holder {
+  width: 60px;
+  height: 60px;
+  background-color: #EE4367;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+@font-face {
+  font-family: "gil sans bold";
+  src: url(../fonts/Gill\ Sans\ Bold.otf);
+}
+@font-face {
+  font-family: gil sans light;
+  src: url(../fonts/Gill\ Sans\ Light.otf);
+}
+.blog .blog-holder .blog-left .b1 .date-holder .date {
+  padding-top: 15px;
+}
+.blog .blog-holder .blog-left .b1 .date-holder .date p {
+  margin: 0;
+  font-size: 22px;
+  color: white;
+  font-family: "gil sans bold";
+  text-decoration: none;
+}
+.blog .blog-holder .blog-left .b1 .date-holder .month {
+  font-family: "gil sans light";
+  color: white;
+  font-size: 12px;
+}
+.blog .blog-holder .blog-left .b1 .image-holder {
+  height: 100%;
+  width: 380px;
+  background-color: white;
+  position: relative;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.blog .blog-holder .blog-left .b1 .image-holder .image {
+  width: 100%;
+  height: 140px;
+  position: absolute;
+  top: 0px;
+  background-image: url(../images/blog\ \(1\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.blog .blog-holder .blog-left .b1 .image-holder .header {
+  color: black;
+  position: absolute;
+  bottom: 33%;
+  text-decoration: none;
+  font-family: "gill sans";
+}
+.blog .blog-holder .blog-left .b1 .image-holder .txt {
+  text-decoration: none;
+  position: absolute;
+  bottom: 0px;
+  color: #EE4367;
+  font-family: "gill sans";
+}
+.blog .blog-holder .blog-left .b2 {
+  display: flex;
+  width: 460px;
+  height: 257px;
+  margin-top: 25px;
+  text-decoration: none;
+}
+.blog .blog-holder .blog-left .b2 .date-holder {
+  width: 60px;
+  height: 60px;
+  background-color: #EE4367;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+@font-face {
+  font-family: "gil sans bold";
+  src: url(../fonts/Gill\ Sans\ Bold.otf);
+}
+@font-face {
+  font-family: gil sans light;
+  src: url(../fonts/Gill\ Sans\ Light.otf);
+}
+.blog .blog-holder .blog-left .b2 .date-holder .date {
+  padding-top: 15px;
+}
+.blog .blog-holder .blog-left .b2 .date-holder .date p {
+  margin: 0;
+  font-size: 22px;
+  color: white;
+  font-family: "gil sans bold";
+  text-decoration: none;
+}
+.blog .blog-holder .blog-left .b2 .date-holder .month {
+  font-family: "gil sans light";
+  color: white;
+  font-size: 12px;
+}
+.blog .blog-holder .blog-left .b2 .image-holder {
+  height: 100%;
+  width: 380px;
+  background-color: white;
+  position: relative;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.blog .blog-holder .blog-left .b2 .image-holder .image {
+  width: 100%;
+  height: 140px;
+  position: absolute;
+  top: 0px;
+  background-image: url(../images/blog\ \(1\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.blog .blog-holder .blog-left .b2 .image-holder .header {
+  position: absolute;
+  bottom: 33%;
+  color: black;
+  font-family: "gill sans";
+}
+.blog .blog-holder .blog-left .b2 .image-holder .txt {
+  position: absolute;
+  bottom: 0px;
+  color: #EE4367;
+  font-family: "gill sans";
+}
+.blog .blog-holder .blog-left .b3 {
+  display: flex;
+  width: 460px;
+  height: 257px;
+  margin-top: 35px;
+  text-decoration: none;
+}
+.blog .blog-holder .blog-left .b3 .date-holder {
+  width: 60px;
+  height: 60px;
+  background-color: #EE4367;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.blog .blog-holder .blog-left .b3 .date-holder .date {
+  padding-top: 15px;
+}
+.blog .blog-holder .blog-left .b3 .date-holder .date p {
+  margin: 0;
+  font-size: 22px;
+  color: white;
+  font-family: "gil sans bold";
+  text-decoration: none;
+}
+.blog .blog-holder .blog-left .b3 .date-holder .month {
+  font-family: "gil sans light";
+  color: white;
+  font-size: 12px;
+}
+.blog .blog-holder .blog-left .b3 .image-holder {
+  height: 100%;
+  width: 380px;
+  background-color: white;
+  position: relative;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.blog .blog-holder .blog-left .b3 .image-holder .image {
+  width: 100%;
+  height: 140px;
+  position: absolute;
+  top: 0px;
+  background-image: url(../images/blog\ \(1\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.blog .blog-holder .blog-left .b3 .image-holder .header {
+  position: absolute;
+  bottom: 33%;
+  color: black;
+  font-family: "gill sans";
+}
+.blog .blog-holder .blog-left .b3 .image-holder .txt {
+  position: absolute;
+  bottom: 0px;
+  color: #EE4367;
+  font-family: "gill sans";
+}
+.blog .blog-holder .blog-right {
+  width: 50%;
+  height: 100%;
+}
+.blog .blog-holder .blog-right .b4 {
+  display: flex;
+  width: 460px;
+  height: 257px;
+  text-decoration: none;
+}
+.blog .blog-holder .blog-right .b4 .date-holder {
+  width: 60px;
+  height: 60px;
+  background-color: #EE4367;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.blog .blog-holder .blog-right .b4 .date-holder .date {
+  padding-top: 15px;
+}
+.blog .blog-holder .blog-right .b4 .date-holder .date p {
+  margin: 0;
+  font-size: 22px;
+  color: white;
+  font-family: "gil sans bold";
+  text-decoration: none;
+}
+.blog .blog-holder .blog-right .b4 .date-holder .month {
+  font-family: "gil sans light";
+  color: white;
+  font-size: 12px;
+}
+.blog .blog-holder .blog-right .b4 .image-holder {
+  height: 100%;
+  width: 380px;
+  background-color: white;
+  position: relative;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.blog .blog-holder .blog-right .b4 .image-holder .image {
+  width: 100%;
+  height: 140px;
+  position: absolute;
+  top: 0px;
+  background-image: url(../images/blog\ \(1\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.blog .blog-holder .blog-right .b4 .image-holder .header {
+  position: absolute;
+  bottom: 33%;
+  color: black;
+  font-family: "gill sans";
+}
+.blog .blog-holder .blog-right .b4 .image-holder .txt {
+  position: absolute;
+  bottom: 0px;
+  color: #EE4367;
+  font-family: "gill sans";
+}
+.blog .blog-holder .blog-right .b5 {
+  display: flex;
+  width: 460px;
+  height: 257px;
+  margin-top: 25px;
+  text-decoration: none;
+}
+.blog .blog-holder .blog-right .b5 .date-holder {
+  width: 60px;
+  height: 60px;
+  background-color: #EE4367;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.blog .blog-holder .blog-right .b5 .date-holder .date {
+  padding-top: 15px;
+}
+.blog .blog-holder .blog-right .b5 .date-holder .date p {
+  margin: 0;
+  font-size: 22px;
+  color: white;
+  font-family: "gil sans bold";
+  text-decoration: none;
+}
+.blog .blog-holder .blog-right .b5 .date-holder .month {
+  font-family: "gil sans light";
+  color: white;
+  font-size: 12px;
+}
+.blog .blog-holder .blog-right .b5 .image-holder {
+  height: 100%;
+  width: 380px;
+  background-color: white;
+  position: relative;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.blog .blog-holder .blog-right .b5 .image-holder .image {
+  width: 100%;
+  height: 140px;
+  position: absolute;
+  top: 0px;
+  background-image: url(../images/blog\ \(1\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.blog .blog-holder .blog-right .b5 .image-holder .header {
+  position: absolute;
+  bottom: 33%;
+  color: black;
+  font-family: "gill sans";
+}
+.blog .blog-holder .blog-right .b5 .image-holder .txt {
+  position: absolute;
+  bottom: 0px;
+  color: #EE4367;
+  font-family: "gill sans";
+}
+
+@media all and (max-width: 950px) {
+  .blog-holder {
+    margin: 0 auto;
+    margin-top: 370px;
+    flex-direction: column;
+  }
+  .blog-holder .blog-right {
+    padding-top: 55px;
+  }
+}
+.blog1-temp {
+  height: 1000px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding-top: 55px;
+}
+.blog1-temp .blog-img {
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(238, 67, 103, 0.7), rgba(238, 67, 103, 0.8)), url(../images/blog\ \(1\).jpg);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.blog1-temp .blog-img .date {
+  width: 155px;
+  height: 155px;
+  background-color: #EE4367;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.blog1-temp .blog-img .date .day {
+  padding-top: 15px;
+}
+.blog1-temp .blog-img .date .day p {
+  margin: 0;
+  font-size: 55px;
+  color: white;
+  font-family: "gil sans bold";
+  text-decoration: none;
+}
+.blog1-temp .blog-img .date .month {
+  font-family: "gil sans light";
+  color: white;
+  font-size: 31px;
+}
+.blog1-temp .header1 {
+  max-width: 850px;
+  height: 300px;
+  margin-top: 50px;
+}
+.blog1-temp .header1 .title {
+  font-family: "gill sans";
+  font-size: 20px;
+  color: #EE4367;
+}
+.blog1-temp .header1 .p1 {
+  font-family: "gil sans light";
+  font-size: 20px;
+  padding-top: 20px;
+}
+.blog1-temp .header1 .p2 {
+  font-family: "gil sans light";
+  font-size: 20px;
+  padding-top: 20px;
+}
+.blog1-temp .header2 {
+  max-width: 850px;
+  height: 200px;
+  margin-top: 50px;
+}
+.blog1-temp .header2 .title {
+  font-family: "gill sans";
+  font-size: 20px;
+  color: #EE4367;
+}
+.blog1-temp .header2 .p3 {
+  font-family: "gil sans light";
+  font-size: 20px;
+  padding-top: 29px;
+}
+
+@media all and (max-width: 700px) {
+  .header2 {
+    padding-top: 150px;
+  }
+}
+.blog2-temp {
+  height: 1000px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding-top: 55px;
+}
+.blog2-temp .blog-img {
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(238, 67, 103, 0.7), rgba(238, 67, 103, 0.8)), url(../images/blog\ \(1\).jpg);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.blog2-temp .blog-img .date {
+  width: 155px;
+  height: 155px;
+  background-color: #EE4367;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.blog2-temp .blog-img .date .day {
+  padding-top: 15px;
+}
+.blog2-temp .blog-img .date .day p {
+  margin: 0;
+  font-size: 55px;
+  color: white;
+  font-family: "gil sans bold";
+  text-decoration: none;
+}
+.blog2-temp .blog-img .date .month {
+  font-family: "gil sans light";
+  color: white;
+  font-size: 31px;
+}
+.blog2-temp .header1 {
+  max-width: 850px;
+  height: 300px;
+  margin-top: 50px;
+}
+.blog2-temp .header1 .title {
+  font-family: "gill sans";
+  font-size: 20px;
+  color: #EE4367;
+}
+.blog2-temp .header1 .p1 {
+  font-family: "gil sans light";
+  font-size: 20px;
+  padding-top: 20px;
+}
+.blog2-temp .header1 .p2 {
+  font-family: "gil sans light";
+  font-size: 20px;
+  padding-top: 20px;
+}
+.blog2-temp .header2 {
+  max-width: 850px;
+  height: 200px;
+  margin-top: 50px;
+}
+.blog2-temp .header2 .title {
+  font-family: "gill sans";
+  font-size: 20px;
+  color: #EE4367;
+}
+.blog2-temp .header2 .p3 {
+  font-family: "gil sans light";
+  font-size: 20px;
+  padding-top: 29px;
+}
+
+@media all and (max-width: 700px) {
+  .header2 {
+    padding-top: 150px;
+  }
+}
+.blog3-temp {
+  height: 1000px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding-top: 55px;
+}
+.blog3-temp .blog-img {
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(238, 67, 103, 0.7), rgba(238, 67, 103, 0.8)), url(../images/blog\ \(1\).jpg);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.blog3-temp .blog-img .date {
+  width: 155px;
+  height: 155px;
+  background-color: #EE4367;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.blog3-temp .blog-img .date .day {
+  padding-top: 15px;
+}
+.blog3-temp .blog-img .date .day p {
+  margin: 0;
+  font-size: 55px;
+  color: white;
+  font-family: "gil sans bold";
+  text-decoration: none;
+}
+.blog3-temp .blog-img .date .month {
+  font-family: "gil sans light";
+  color: white;
+  font-size: 31px;
+}
+.blog3-temp .header1 {
+  max-width: 850px;
+  height: 300px;
+  margin-top: 50px;
+}
+.blog3-temp .header1 .title {
+  font-family: "gill sans";
+  font-size: 20px;
+  color: #EE4367;
+}
+.blog3-temp .header1 .p1 {
+  font-family: "gil sans light";
+  font-size: 20px;
+  padding-top: 20px;
+}
+.blog3-temp .header1 .p2 {
+  font-family: "gil sans light";
+  font-size: 20px;
+  padding-top: 20px;
+}
+.blog3-temp .header2 {
+  max-width: 850px;
+  height: 200px;
+  margin-top: 50px;
+}
+.blog3-temp .header2 .title {
+  font-family: "gill sans";
+  font-size: 20px;
+  color: #EE4367;
+}
+.blog3-temp .header2 .p3 {
+  font-family: "gil sans light";
+  font-size: 20px;
+  padding-top: 29px;
+}
+
+@media all and (max-width: 700px) {
+  .header2 {
+    padding-top: 150px;
+  }
+}
+.blog4-temp {
+  height: 1000px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding-top: 55px;
+}
+.blog4-temp .blog-img {
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(238, 67, 103, 0.7), rgba(238, 67, 103, 0.8)), url(../images/blog\ \(1\).jpg);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.blog4-temp .blog-img .date {
+  width: 155px;
+  height: 155px;
+  background-color: #EE4367;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.blog4-temp .blog-img .date .day {
+  padding-top: 15px;
+}
+.blog4-temp .blog-img .date .day p {
+  margin: 0;
+  font-size: 55px;
+  color: white;
+  font-family: "gil sans bold";
+  text-decoration: none;
+}
+.blog4-temp .blog-img .date .month {
+  font-family: "gil sans light";
+  color: white;
+  font-size: 31px;
+}
+.blog4-temp .header1 {
+  max-width: 850px;
+  height: 300px;
+  margin-top: 50px;
+}
+.blog4-temp .header1 .title {
+  font-family: "gill sans";
+  font-size: 20px;
+  color: #EE4367;
+}
+.blog4-temp .header1 .p1 {
+  font-family: "gil sans light";
+  font-size: 20px;
+  padding-top: 20px;
+}
+.blog4-temp .header1 .p2 {
+  font-family: "gil sans light";
+  font-size: 20px;
+  padding-top: 20px;
+}
+.blog4-temp .header2 {
+  max-width: 850px;
+  height: 200px;
+  margin-top: 50px;
+}
+.blog4-temp .header2 .title {
+  font-family: "gill sans";
+  font-size: 20px;
+  color: #EE4367;
+}
+.blog4-temp .header2 .p3 {
+  font-family: "gil sans light";
+  font-size: 20px;
+  padding-top: 29px;
+}
+
+@media all and (max-width: 700px) {
+  .header2 {
+    padding-top: 150px;
+  }
+}
+.blog5-temp {
+  height: 1000px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding-top: 55px;
+}
+.blog5-temp .blog-img {
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(238, 67, 103, 0.7), rgba(238, 67, 103, 0.8)), url(../images/blog\ \(1\).jpg);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.blog5-temp .blog-img .date {
+  width: 155px;
+  height: 155px;
+  background-color: #EE4367;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.blog5-temp .blog-img .date .day {
+  padding-top: 15px;
+}
+.blog5-temp .blog-img .date .day p {
+  margin: 0;
+  font-size: 55px;
+  color: white;
+  font-family: "gil sans bold";
+  text-decoration: none;
+}
+.blog5-temp .blog-img .date .month {
+  font-family: "gil sans light";
+  color: white;
+  font-size: 31px;
+}
+.blog5-temp .header1 {
+  max-width: 850px;
+  height: 300px;
+  margin-top: 50px;
+}
+.blog5-temp .header1 .title {
+  font-family: "gill sans";
+  font-size: 20px;
+  color: #EE4367;
+}
+.blog5-temp .header1 .p1 {
+  font-family: "gil sans light";
+  font-size: 20px;
+  padding-top: 20px;
+}
+.blog5-temp .header1 .p2 {
+  font-family: "gil sans light";
+  font-size: 20px;
+  padding-top: 20px;
+}
+.blog5-temp .header2 {
+  max-width: 850px;
+  height: 200px;
+  margin-top: 50px;
+}
+.blog5-temp .header2 .title {
+  font-family: "gill sans";
+  font-size: 20px;
+  color: #EE4367;
+}
+.blog5-temp .header2 .p3 {
+  font-family: "gil sans light";
+  font-size: 20px;
+  padding-top: 29px;
+}
+
+@media all and (max-width: 700px) {
+  .header2 {
+    padding-top: 150px;
+  }
+}
+.gallery {
+  max-width: 980px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.gallery .gallery-title {
+  padding-top: 50px;
+  font-family: "Gill Sans";
+}
+.gallery .gallery-title h1 {
+  color: black;
+  font-family: "Gill Sans";
+  font-weight: normal;
+  position: relative;
+  padding-bottom: 10px;
+  font-size: 25px;
+}
+.gallery .gallery-title h1::after {
+  display: block;
+  content: "";
+  width: 229px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.gallery .gallery-block {
+  max-width: 100%;
+  padding-top: 20px;
+}
+.gallery .gallery-block .r1 {
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.gallery .gallery-block .r1 .art1-holder {
+  width: 489px;
+  height: 187px;
+  background-color: white;
+  background-image: linear-gradient(rgba(255, 209, 64, 0.7), rgba(255, 209, 64, 0.8)), url(../images/1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.gallery .gallery-block .r1 .art2 {
+  width: 187px;
+  height: 187px;
+  background-color: white;
+  background-image: linear-gradient(rgba(238, 67, 103, 0.7), rgba(238, 67, 103, 0.8)), url(../images/2.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.gallery .gallery-block .r1 .art3 {
+  width: 265px;
+  height: 187px;
+  background-color: white;
+  background-image: linear-gradient(rgba(8, 173, 105, 0.7), rgba(8, 173, 105, 0.7)), url(../images/3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.gallery .gallery-block .r2 {
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+.gallery .gallery-block .r2 .art4 {
+  width: 603px;
+  height: 306px;
+  background-color: white;
+  background-image: linear-gradient(rgba(84, 13, 110, 0.7), rgba(84, 13, 110, 0.7)), url(../images/4.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.gallery .gallery-block .r2 .art5 {
+  width: 355px;
+  height: 306px;
+  background-color: white;
+  background-image: linear-gradient(rgba(59, 206, 171, 0.7), rgba(59, 206, 171, 0.7)), url(../images/5.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+@media all and (max-width: 950px) {
+  .r1 {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .r1 .art1-holder {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 40px;
+  }
+  .r1 .art2 {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 40px;
+  }
+  .r1 .art3 {
+    margin-bottom: 5px;
+  }
+  .r2 {
+    flex-direction: column;
+  }
+  .r2 .art4 {
+    margin-bottom: 40px;
+  }
+}
+.gallery1-temp {
+  max-width: 980px;
+  height: 670px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.gallery1-temp .gallery-img {
+  position: relative;
+  background-image: linear-gradient(rgba(255, 209, 64, 0.7), rgba(255, 209, 64, 0.8)), url(../images/1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  max-width: 100%;
+  height: 400px;
+}
+.gallery1-temp .gallery-img .gallery-num {
+  position: absolute;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gill Sans";
+  height: 320px;
+  width: 250px;
+  padding-top: 97px;
+}
+.gallery1-temp .gallery-img .gallery-num .num {
+  position: absolute;
+}
+.gallery1-temp .gallery-img .gallery-num .num p {
+  font-size: 320px;
+  color: #FFD140;
+  text-shadow: 2px 5px 9px rgba(0, 0, 0, 0.5);
+}
+.gallery1-temp .gallery-img .gallery-text {
+  position: absolute;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gill Sans";
+  height: 320px;
+  right: 0px;
+  padding-right: 70px;
+  bottom: 0;
+  padding-top: 187px;
+}
+.gallery1-temp .gallery-img .gallery-text p {
+  font-size: 140px;
+  color: #FFD140;
+  text-shadow: 2px 5px 9px rgba(0, 0, 0, 0.5);
+}
+@font-face {
+  font-family: "gsli";
+  src: url(../fonts/Gill\ Sans\ Light\ Italic.otf);
+}
+.gallery1-temp .text-holder {
+  padding-top: 50px;
+  max-width: 980px;
+  justify-content: space-between;
+  display: flex;
+}
+.gallery1-temp .text-holder .t1 {
+  font-family: "gsli";
+  max-width: 490px;
+}
+.gallery1-temp .text-holder .t2 {
+  font-family: "gsli";
+  max-width: 490px;
+}
+
+@media all and (max-width: 950px) {
+  .gallery-text {
+    display: none;
+  }
+  .text-holder {
+    margin-top: 40px;
+    flex-direction: column;
+  }
+}
+.gallery2-temp {
+  max-width: 980px;
+  height: 670px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.gallery2-temp .gallery-img {
+  position: relative;
+  background-image: linear-gradient(rgba(238, 67, 103, 0.7), rgba(238, 67, 103, 0.8)), url(../images/2.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  max-width: 100%;
+  height: 400px;
+}
+.gallery2-temp .gallery-img .gallery-num {
+  position: absolute;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gill Sans";
+  height: 320px;
+  width: 250px;
+  padding-top: 97px;
+}
+.gallery2-temp .gallery-img .gallery-num .num {
+  position: absolute;
+}
+.gallery2-temp .gallery-img .gallery-num .num p {
+  font-size: 320px;
+  color: #EE4367;
+  text-shadow: 2px 5px 9px rgba(0, 0, 0, 0.5);
+}
+.gallery2-temp .gallery-img .gallery-text {
+  position: absolute;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gill Sans";
+  height: 320px;
+  right: 0px;
+  padding-right: 330px;
+  bottom: 0;
+  padding-top: 187px;
+}
+.gallery2-temp .gallery-img .gallery-text p {
+  font-size: 140px;
+  color: #EE4367;
+  text-shadow: 2px 5px 9px rgba(0, 0, 0, 0.5);
+}
+@font-face {
+  font-family: "gsli";
+  src: url(../fonts/Gill\ Sans\ Light\ Italic.otf);
+}
+.gallery2-temp .text-holder {
+  padding-top: 50px;
+  width: 980px;
+  justify-content: space-between;
+  display: flex;
+}
+.gallery2-temp .text-holder .t1 {
+  font-family: "gsli";
+  width: 490px;
+}
+.gallery2-temp .text-holder .t2 {
+  font-family: "gsli";
+  width: 451px;
+}
+
+@media all and (max-width: 950px) {
+  .gallery-text {
+    display: none;
+  }
+  .text-holder {
+    margin-top: 40px;
+    flex-direction: column;
+  }
+}
+.gallery3-temp {
+  max-width: 980px;
+  height: 670px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.gallery3-temp .gallery-img {
+  position: relative;
+  background-image: linear-gradient(rgba(8, 173, 105, 0.7), rgba(8, 173, 105, 0.7)), url(../images/3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  max-width: 100%;
+  height: 400px;
+}
+.gallery3-temp .gallery-img .gallery-num {
+  position: absolute;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gill Sans";
+  height: 320px;
+  width: 250px;
+  padding-top: 97px;
+}
+.gallery3-temp .gallery-img .gallery-num .num {
+  position: absolute;
+}
+.gallery3-temp .gallery-img .gallery-num .num p {
+  font-size: 320px;
+  color: #08AD69;
+  text-shadow: 2px 5px 9px rgba(0, 0, 0, 0.5);
+}
+.gallery3-temp .gallery-img .gallery-text {
+  position: absolute;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gill Sans";
+  height: 320px;
+  right: 0px;
+  padding-right: 330px;
+  bottom: 0;
+  padding-top: 187px;
+}
+.gallery3-temp .gallery-img .gallery-text p {
+  font-size: 140px;
+  color: #08AD69;
+  text-shadow: 2px 5px 9px rgba(0, 0, 0, 0.5);
+}
+@font-face {
+  font-family: "gsli";
+  src: url(../fonts/Gill\ Sans\ Light\ Italic.otf);
+}
+.gallery3-temp .text-holder {
+  padding-top: 50px;
+  width: 980px;
+  justify-content: space-between;
+  display: flex;
+}
+.gallery3-temp .text-holder .t1 {
+  font-family: "gsli";
+  width: 490px;
+}
+.gallery3-temp .text-holder .t2 {
+  font-family: "gsli";
+  width: 451px;
+}
+
+@media all and (max-width: 950px) {
+  .gallery-text {
+    display: none;
+  }
+  .text-holder {
+    margin-top: 40px;
+    flex-direction: column;
+  }
+}
+.gallery4-temp {
+  max-width: 980px;
+  height: 670px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.gallery4-temp .gallery-img {
+  position: relative;
+  background-image: linear-gradient(rgba(84, 13, 110, 0.7), rgba(84, 13, 110, 0.7)), url(../images/4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  max-width: 100%;
+  height: 400px;
+}
+.gallery4-temp .gallery-img .gallery-num {
+  position: absolute;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gill Sans";
+  height: 320px;
+  width: 250px;
+  padding-top: 97px;
+}
+.gallery4-temp .gallery-img .gallery-num .num {
+  position: absolute;
+}
+.gallery4-temp .gallery-img .gallery-num .num p {
+  font-size: 320px;
+  color: #540D6E;
+  text-shadow: 2px 5px 9px rgba(0, 0, 0, 0.5);
+}
+.gallery4-temp .gallery-img .gallery-text {
+  position: absolute;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gill Sans";
+  height: 320px;
+  right: 0px;
+  padding-right: 70px;
+  bottom: 0;
+  padding-top: 210px;
+}
+.gallery4-temp .gallery-img .gallery-text p {
+  font-size: 115px;
+  color: #540D6E;
+  text-shadow: 2px 5px 9px rgba(0, 0, 0, 0.5);
+}
+@font-face {
+  font-family: "gsli";
+  src: url(../fonts/Gill\ Sans\ Light\ Italic.otf);
+}
+.gallery4-temp .text-holder {
+  padding-top: 50px;
+  width: 980px;
+  justify-content: space-between;
+  display: flex;
+}
+.gallery4-temp .text-holder .t1 {
+  font-family: "gsli";
+  width: 490px;
+}
+.gallery4-temp .text-holder .t2 {
+  font-family: "gsli";
+  width: 451px;
+}
+
+@media all and (max-width: 950px) {
+  .gallery-text {
+    display: none;
+  }
+  .text-holder {
+    margin-top: 40px;
+    flex-direction: column;
+  }
+}
+.gallery5-temp {
+  max-width: 980px;
+  height: 670px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.gallery5-temp .gallery-img {
+  position: relative;
+  background-image: linear-gradient(rgba(59, 206, 171, 0.7), rgba(59, 206, 171, 0.7)), url(../images/5.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  max-width: 100%;
+  height: 400px;
+}
+.gallery5-temp .gallery-img .gallery-num {
+  position: absolute;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gill Sans";
+  height: 320px;
+  width: 250px;
+  padding-top: 97px;
+}
+.gallery5-temp .gallery-img .gallery-num .num {
+  position: absolute;
+}
+.gallery5-temp .gallery-img .gallery-num .num p {
+  font-size: 320px;
+  color: #3BCEAB;
+  text-shadow: 2px 5px 9px rgba(0, 0, 0, 0.5);
+}
+.gallery5-temp .gallery-img .gallery-text {
+  position: absolute;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gill Sans";
+  height: 320px;
+  right: 0px;
+  padding-right: 110px;
+  bottom: 0;
+  padding-top: 212px;
+}
+.gallery5-temp .gallery-img .gallery-text p {
+  font-size: 115px;
+  color: #3BCEAB;
+  text-shadow: 2px 5px 11px rgba(0, 0, 0, 0.5);
+}
+@font-face {
+  font-family: "gsli";
+  src: url(../fonts/Gill\ Sans\ Light\ Italic.otf);
+}
+.gallery5-temp .text-holder {
+  padding-top: 50px;
+  width: 980px;
+  justify-content: space-between;
+  display: flex;
+}
+.gallery5-temp .text-holder .t1 {
+  font-family: "gsli";
+  width: 490px;
+}
+.gallery5-temp .text-holder .t2 {
+  font-family: "gsli";
+  width: 451px;
+}
+
+@media all and (max-width: 950px) {
+  .gallery-text {
+    display: none;
+  }
+  .text-holder {
+    margin-top: 40px;
+    flex-direction: column;
+  }
+}
+.contact {
+  height: 800px;
+  max-width: 980px;
+  margin: 0 auto;
+}
+.contact .contact-header h1 {
+  padding-top: 86px;
+  font-family: "Gill Sans";
+  font-weight: normal;
+  position: relative;
+  padding-bottom: 10px;
+}
+.contact .contact-header h1::after {
+  display: block;
+  content: "";
+  width: 240px;
+  height: 2px;
+  background: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.contact .contact-holder {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+.contact .contact-holder .leftSide {
+  height: 100%;
+  width: 529px;
+}
+.contact .contact-holder .leftSide .nInput {
+  width: 100%;
+}
+.contact .contact-holder .leftSide .nInput input {
+  font-size: 16px;
+  border-style: solid;
+  background-color: #F5F5F5;
+  border-color: white;
+  min-width: 100%;
+  height: 60px;
+  padding-left: 10px;
+  font-family: "Gill Sans";
+}
+.contact .contact-holder .leftSide .nInput ::placeholder {
+  padding: 20px;
+}
+.contact .contact-holder .leftSide .eInput {
+  padding-top: 21px;
+  min-width: 100%;
+}
+.contact .contact-holder .leftSide .eInput input {
+  color: black;
+  font-size: 16px;
+  background-color: #F5F5F5;
+  border-style: solid;
+  border-color: white;
+  min-width: 100%;
+  height: 60px;
+  padding-left: 10px;
+  font-family: "Gill Sans";
+}
+.contact .contact-holder .leftSide .eInput ::placeholder {
+  padding: 20px;
+}
+.contact .contact-holder .leftSide .cInput {
+  padding-top: 21px;
+  min-width: 100%;
+}
+.contact .contact-holder .leftSide .cInput input {
+  color: black;
+  font-size: 16px;
+  border-style: solid;
+  background-color: #F5F5F5;
+  border-color: white;
+  min-width: 100%;
+  height: 60px;
+  padding-left: 10px;
+  font-family: "Gill Sans";
+}
+.contact .contact-holder .leftSide .cInput ::placeholder {
+  padding: 20px;
+}
+.contact .contact-holder .leftSide .mInput {
+  padding-top: 21px;
+  position: relative;
+  min-width: 100%;
+}
+.contact .contact-holder .leftSide .mInput input {
+  color: black;
+  font-size: 16px;
+  border-style: solid;
+  border-color: white;
+  min-width: 100%;
+  background-color: #F5F5F5;
+  height: 60px;
+  padding-left: 10px;
+  font-family: "Gill Sans";
+  height: 198px;
+}
+.contact .contact-holder .leftSide .mInput ::placeholder {
+  position: absolute;
+  top: 0;
+  padding: 20px;
+}
+.contact .contact-holder .leftSide .send {
+  margin-top: 21px;
+  width: 167px;
+  height: 60px;
+  padding-top: 12px;
+  background-color: #EE4367;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "Gill Sans";
+  color: white;
+  font-size: 16px;
+}
+.contact .contact-holder .leftSide .send a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+.contact .contact-holder .rightSide {
+  height: 100%;
+  width: 400px;
+}
+.contact .contact-holder .rightSide .map {
+  height: 442px;
+  width: 400px;
+  background-color: yellow;
+  background-image: url(../images/map.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media all and (max-width: 949px) {
+  .contact-holder {
+    flex-direction: column;
+  }
+  .contact-holder .rightSide {
+    margin-top: 30px;
+    padding-bottom: 1000px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,284 @@
+.calender{
+    width: 100%;
+    min-height: 320px;
+    background-color: #540D6E;
+    .upcoming{
+        padding: 20px;
+        padding-top: 30px;
+        h1{
+            color: white;
+            font-family: 'Gill Sans';
+            font-weight: normal;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        h1::after {
+            // margin-top: 100px;
+            display: block;
+            content: '';
+             width: 392px;
+             height: 2px;
+             background: white;
+             position: absolute;
+             bottom: 0;
+             left: 0;
+             
+           }
+
+    }
+    .calender-holder{
+        justify-content: space-evenly;
+        align-items: center;
+        display: flex;
+        // justify-content: space-between;
+        .d1{
+            width: 210px;
+            height: 130px;
+            
+            display: flex;
+            .date{
+                width: 60px;
+                height: 60px;
+                background-color: #EE4367;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                @font-face {
+                    font-family: 'gil sans bold';
+                    src: url(../fonts/Gill\ Sans\ Bold.otf);
+                @font-face {
+                    font-family: gil sans light;
+                    src: url(../fonts/Gill\ Sans\ Light.otf);
+                }
+                }
+                .day{
+                    padding-top: 20px;
+                   p{
+                    margin: 0;
+                    font-size: 22px;
+                    color: white;
+                    font-family: 'gil sans bold';
+                    
+                   }
+                }
+                
+                .month{
+                    font-family: 'gil sans light';
+                    color: white;
+                    font-size: 12px;
+                }
+            }
+            .date-txt-holder{
+                padding-left: 10px;
+                height: 30px;
+                width: 140px;
+                color: white;
+                .date-header{
+                    font-family: "gill sans";
+                    font-size: 15px;
+                    // font-family: 'Gill Sans'
+                }
+                .date-info{
+                    font-family: "gill sans";
+                    font-size: 13px;
+                    color: #EE4367;
+                }
+            }
+        }
+        .d2{
+            width: 210px;
+            height: 130px;
+           
+            display: flex;
+            .date{
+                width: 60px;
+                height: 60px;
+                background-color: #EE4367;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .day{
+                    padding-top: 20px;
+                    p{
+                        margin: 0;
+                        font-size: 22px;
+                        color: white;
+                        font-family: 'gil sans bold';
+                        
+                       }
+                }
+                .month{
+                    font-family: 'gil sans light';
+                    color: white;
+                    font-size: 12px;
+                
+                }
+            }
+            .date-txt-holder{
+                padding-left: 10px;
+                height: 30px;
+                width: 140px;
+                color: white;
+                .date-header{
+                    font-family: "gill sans";
+                    font-size: 15px;
+                    // font-family: 'Gill Sans'
+                }
+                .date-info{
+                    font-family: "gill sans";
+                    font-size: 13px;
+                    color: #EE4367;
+                }
+            }
+        }
+        .d3{
+            width: 210px;
+            height: 130px;
+          
+            display: flex;
+            .date{
+                width: 60px;
+                height: 60px;
+                background-color: #EE4367;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .day{
+                    padding-top: 20px;
+                    p{
+                        margin: 0;
+                        font-size: 22px;
+                        color: white;
+                        font-family: 'gil sans bold';
+                        
+                       }
+                }
+                .month{
+                    font-family: 'gil sans light';
+                    color: white;
+                    font-size: 12px;
+                }
+            }
+            .date-txt-holder{
+                padding-left: 10px;
+                height: 30px;
+                width: 140px;
+                color: white;
+                .date-header{
+                    font-family: "gill sans";
+                    font-size: 15px;
+                    // font-family: 'Gill Sans'
+                }
+                .date-info{
+                    font-family: "gill sans";
+                    font-size: 13px;
+                    color: #EE4367;
+                }
+            }
+        }
+        .d4{
+            width: 210px;
+            height: 130px;
+       
+            display: flex;
+            .date{
+                width: 60px;
+                height: 60px;
+                background-color: #EE4367;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .day{
+                    padding-top: 20px;
+                    p{
+                        margin: 0;
+                        font-size: 22px;
+                        color: white;
+                        font-family: 'gil sans bold';
+                        
+                       }
+                }
+                .month{
+                    font-family: 'gil sans light';
+                    color: white;
+                    font-size: 12px;
+                }
+            }
+            .date-txt-holder{
+                padding-left: 10px;
+                height: 30px;
+                width: 140px;
+                color: white;
+                .date-header{
+                    font-family: "gill sans";
+                    font-size: 15px;
+                    // font-family: 'Gill Sans'
+                }
+                .date-info{
+                    font-family: "gill sans";
+                    font-size: 13px;
+                    color: #EE4367;
+                }
+            }
+        }
+        .d5{
+            width: 210px;
+            height: 130px;
+        
+            display: flex;
+            .date{
+                width: 60px;
+                height: 60px;
+                background-color: #EE4367;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .day{
+                    padding-top: 20px;
+                    p{
+                        margin: 0;
+                        font-size: 22px;
+                        color: white;
+                        font-family: 'gil sans bold';
+                        
+                       }
+                }
+                .month{
+                    font-family: 'gil sans light';
+                    color: white;
+                    font-size: 12px;
+                }
+            }
+            .date-txt-holder{
+                padding-left: 10px;
+                height: 30px;
+                width: 140px;
+                color: white;
+                .date-header{
+                    font-family: "gill sans";
+                    font-size: 15px;
+                    // font-family: 'Gill Sans'
+                }
+                .date-info{
+                    font-family: "gill sans";
+                    font-size: 13px;
+                    color: #EE4367;
+                }
+            }
+        }
+        
+    }
+}
+
+@media all and (max-width: 1022px){
+    .calender-holder{
+        flex-direction: column;
+      
+        
+    }
+  }

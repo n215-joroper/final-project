@@ -1,0 +1,36 @@
+.home-text{
+    max-width: 100%;
+    height: 300px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    @font-face {
+        font-family: "gill semibold itallic";
+        src: url(../fonts/Gill\ Sans\ Bold\ Italic.otf);
+    }
+    .text-holder{
+        width: 790px;
+        height: 200px;
+    
+            .info{
+                font-size: 15px;
+              color: #FFD140;
+              font-family: "gill semibold itallic";
+            }
+            .author{
+                font-family: "pt seriff";
+                padding-top: 20px;
+                color: #EE4367;
+
+            }
+            .copywrite{
+                font-family: "pt seriff";
+                margin: 0;
+                font-size: 10px;
+                color: #A8A8A8;
+            }
+        
+    }
+}

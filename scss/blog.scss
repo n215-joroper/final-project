@@ -1,0 +1,413 @@
+.blog{
+    margin: 0 auto;
+    height: 1000px;
+    max-width: 980px;
+    // background-color: yellow;
+    .blog-title{
+        padding-top: 40px;
+        h1{
+            font-family: 'Gill Sans';
+            font-weight: normal;
+            position: relative;
+            padding-bottom: 10px;
+            font-size: 25px;
+        }
+        h1::after {
+            // margin-top: 100px;
+            display: block;
+            content: '';
+             width: 229px;
+             height: 2px;
+             background: black;
+
+             position: absolute;
+             bottom: 0;
+             left: 0;
+             
+           }
+    }
+    .blog-holder{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 800px;
+        cursor: pointer;
+        text-decoration: none;
+        padding-top: 10px;
+        .blog-left{
+            width: 50%;
+            height: 100%;
+            // background-color: green;
+            text-decoration: none;
+            
+            .b1{
+                display: flex;
+                width: 460px;
+                height: 257px;
+                // background-color: black;
+                text-decoration: none;
+                .date-holder{
+                    width: 60px;
+                    height: 60px;
+                    background-color: #EE4367;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-decoration: none;
+                    @font-face {
+                        font-family: 'gil sans bold';
+                        src: url(../fonts/Gill\ Sans\ Bold.otf);
+                    }
+                    @font-face {
+                        font-family: gil sans light;
+                        src: url(../fonts/Gill\ Sans\ Light.otf);
+                    }
+                    
+                    .date{
+                        padding-top: 15px;
+                        p{
+                            margin: 0;
+                            font-size: 22px;
+                            color: white;
+                            font-family: 'gil sans bold';
+                            text-decoration: none;
+                           }
+                    }
+                    .month{
+                        // margin-bottom: 10px;
+                        font-family: 'gil sans light';
+                        color: white;
+                        font-size: 12px;
+                    }
+                }
+                .image-holder{
+                    height: 100%;
+                    width: 380px;
+                    background-color: white;
+                    position: relative;
+                    margin-left: 20px;
+                    text-decoration: none;
+                    .image{
+                        width: 100%;
+                        height: 140px;
+                        position: absolute;
+                        top: 0px;
+                        background-image: url(../images/blog\ \(1\).jpg);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        
+                    }
+                    .header{
+                        color: black;
+                        position: absolute; 
+                        bottom: 33%;
+                        text-decoration: none;
+                        font-family: 'gill sans';
+                    }
+                    .txt{
+                        text-decoration: none;
+                        position: absolute; 
+                        bottom: 0px;
+                        color: #EE4367;
+                        font-family: 'gill sans';
+                    }
+                }
+                
+            }
+            .b2{
+                display: flex;
+                width: 460px;
+                height: 257px;
+                // background-color: black;
+                margin-top: 25px;
+                text-decoration: none;
+                .date-holder{
+                    width: 60px;
+                    height: 60px;
+                    background-color: #EE4367;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-decoration: none;
+                    @font-face {
+                        font-family: 'gil sans bold';
+                        src: url(../fonts/Gill\ Sans\ Bold.otf);
+                    }
+                    @font-face {
+                        font-family: gil sans light;
+                        src: url(../fonts/Gill\ Sans\ Light.otf);
+                    }
+                    .date{
+                        padding-top: 15px;
+                        p{
+                            margin: 0;
+                            font-size: 22px;
+                            color: white;
+                            font-family: 'gil sans bold';
+                            text-decoration: none;
+                           }
+                    }
+                    .month{
+                        font-family: 'gil sans light';
+                        color: white;
+                        font-size: 12px;
+                    }
+                }
+                .image-holder{
+                    height: 100%;
+                    width: 380px;
+                    background-color: white;
+                    position: relative;
+                    margin-left: 20px;
+                    text-decoration: none;
+                    .image{
+                        width: 100%;
+                        height: 140px;
+                        position: absolute;
+                        top: 0px;
+                        background-image: url(../images/blog\ \(1\).jpg);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                    }
+                    .header{
+                        position: absolute; 
+                        bottom: 33%;
+                        color: black;
+                        font-family: 'gill sans';
+                    }
+                    .txt{
+                        position: absolute; 
+                        bottom: 0px;
+                        color: #EE4367;
+                        font-family: 'gill sans';
+
+                    }
+                }
+            }
+            .b3{
+                display: flex;
+                width: 460px;
+                height: 257px;
+                // background-color: black;
+                margin-top: 35px;
+                text-decoration: none;
+             
+                .date-holder{
+                    width: 60px;
+                    height: 60px;
+                    background-color: #EE4367;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-decoration: none;
+                    
+                    .date{
+                        padding-top: 15px;
+                        p{
+                            margin: 0;
+                            font-size: 22px;
+                            color: white;
+                            font-family: 'gil sans bold';
+                            text-decoration: none;
+                           }
+                    }
+                    .month{
+                        font-family: 'gil sans light';
+                        color: white;
+                        font-size: 12px;
+                    }
+                }
+                .image-holder{
+                    height: 100%;
+                    width: 380px;
+                    background-color: white;
+                    position: relative;
+                    margin-left: 20px;
+                    text-decoration: none;
+                    .image{
+                        width: 100%;
+                        height: 140px;
+                        position: absolute;
+                        top: 0px;
+                        background-image: url(../images/blog\ \(1\).jpg);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        
+                    }
+                    .header{
+                        position: absolute; 
+                        bottom: 33%;
+                        color: black;
+                        font-family: 'gill sans';
+                    }
+                    .txt{
+                        position: absolute; 
+                        bottom: 0px;
+                        color: #EE4367;
+                        font-family: 'gill sans';
+                    }
+                }
+                
+            }
+        }
+        .blog-right{
+            width: 50%;
+            height: 100%;
+            // background-color: red;
+            .b4{
+                display: flex;
+                width: 460px;
+                height: 257px;
+                // background-color: black;
+                // margin-top: 35px;
+                text-decoration: none;
+             
+                .date-holder{
+                    width: 60px;
+                    height: 60px;
+                    background-color: #EE4367;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-decoration: none;
+                    
+                    .date{
+                        padding-top: 15px;
+                        p{
+                            margin: 0;
+                            font-size: 22px;
+                            color: white;
+                            font-family: 'gil sans bold';
+                            text-decoration: none;
+                           }
+                    }
+                    .month{
+                        font-family: 'gil sans light';
+                        color: white;
+                        font-size: 12px;
+                    }
+                }
+                .image-holder{
+                    height: 100%;
+                    width: 380px;
+                    background-color: white;
+                    position: relative;
+                    margin-left: 20px;
+                    text-decoration: none;
+                    .image{
+                        width: 100%;
+                        height: 140px;
+                        position: absolute;
+                        top: 0px;
+                        background-image: url(../images/blog\ \(1\).jpg);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        
+                    }
+                    .header{
+                        position: absolute; 
+                        bottom: 33%;
+                        color: black;
+                        font-family: 'gill sans';
+                    }
+                    .txt{
+                        position: absolute; 
+                        bottom: 0px;
+                        color: #EE4367;
+                        font-family: 'gill sans';
+                    }
+                }
+                
+            }
+            .b5{
+                display: flex;
+                width: 460px;
+                height: 257px;
+                // background-color: black;
+                margin-top: 25px;
+                text-decoration: none;
+             
+                .date-holder{
+                    width: 60px;
+                    height: 60px;
+                    background-color: #EE4367;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    text-decoration: none;
+                    
+                    .date{
+                        padding-top: 15px;
+                        p{
+                            margin: 0;
+                            font-size: 22px;
+                            color: white;
+                            font-family: 'gil sans bold';
+                            text-decoration: none;
+                           }
+                    }
+                    .month{
+                        font-family: 'gil sans light';
+                        color: white;
+                        font-size: 12px;
+                    }
+                }
+                .image-holder{
+                    height: 100%;
+                    width: 380px;
+                    background-color: white;
+                    position: relative;
+                    margin-left: 20px;
+                    text-decoration: none;
+                    .image{
+                        width: 100%;
+                        height: 140px;
+                        position: absolute;
+                        top: 0px;
+                        background-image: url(../images/blog\ \(1\).jpg);
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        
+                    }
+                    .header{
+                        position: absolute; 
+                        bottom: 33%;
+                        color: black;
+                        font-family: 'gill sans';
+                    }
+                    .txt{
+                        position: absolute; 
+                        bottom: 0px;
+                        color: #EE4367;
+                        font-family: 'gill sans';
+                    }
+                }
+                
+            }
+        }
+    }
+    
+}
+
+@media all and (max-width: 950px){
+   
+    .blog-holder{
+        margin: 0 auto;
+        margin-top: 370px;
+        flex-direction: column;
+
+        .blog-right{
+            padding-top: 55px;
+        }
+    }
+}

@@ -1,0 +1,80 @@
+.hero{
+    min-width: 100%;
+    background-color: black;
+    height: 500px;
+    background-image: linear-gradient(rgba(255, 209, 64, .8), rgba(255, 209, 64, .8)), url(../images/home-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 0, 0.8);
+    .hero-holder{
+        width: 100%;
+        height: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+     
+      .info{
+
+        .read{
+            margin-left: 300px;
+            height: 40px;
+            width: 121px;
+            background-color: #EE4367;
+            align-items: center;
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 45px;
+            font-family: "gill sans";
+           
+            p{
+                padding-top: 12px;
+                color: white;
+                font-size: 15px;
+            }
+            
+        a{
+            text-decoration: none;
+        }
+        }
+        @font-face {
+            font-family: "pt seriff";
+            src: url(../fonts/PTSerif-Regular.ttf);
+        }
+        
+    h1{
+        margin-top: 50px;
+        
+        color: white;
+        font-size: 30px;
+        font-family: "pt seriff";
+        
+    }
+
+    h2{
+       
+        color: white;
+        font-size: 20px;
+        font-family: "gill sans";
+        font-style: italic;
+        margin: 0;
+    }
+
+    p{
+        padding-bottom: 50px;
+        color: #EE4367;
+        font-family: 'Gill Sans';
+        font-style: italic;
+        font-size: 20px;
+    }
+     
+      }
+    }
+}
