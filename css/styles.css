@@ -60,6 +60,7 @@ h1, h2, h3, h4, h5, h6, p {
   align-items: center;
   text-decoration: none;
   text-decoration: none;
+  font-family: "Gill Sans";
 }
 .white .a-holder {
   display: flex;
@@ -67,6 +68,7 @@ h1, h2, h3, h4, h5, h6, p {
   align-items: center;
   text-decoration: none;
   text-decoration: none;
+  font-family: "Gill Sans";
 }
 
 .black {
@@ -81,12 +83,14 @@ h1, h2, h3, h4, h5, h6, p {
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
+  font-family: "Gill Sans";
 }
 .black .a-holder {
   display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  font-family: "Gill Sans";
 }
 
 .logo {
